@@ -151,7 +151,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -308,7 +308,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
-		margin: 2em 0;
+		margin: -1em 0 1em 0;
 	}
 
 		hr.major {
@@ -4033,6 +4033,7 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
+					font-size: 1.65em;
 				}
 
 				.tiles article > a .content {
@@ -4096,9 +4097,9 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-		* + .tiles {
+		/* * + .tiles {
 			margin-top: 2em;
-		}
+		} */
 
 		body.is-preload .tiles article {
 			-moz-transform: scale(0.9);
